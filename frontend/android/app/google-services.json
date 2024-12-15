@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "460737365115",
+    "project_id": "pencilstopeople-64d9a",
+    "storage_bucket": "pencilstopeople-64d9a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460737365115:android:1871dc7428a649b1dccede",
+        "android_client_info": {
+          "package_name": "com.example.frontend"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTnFiwYwc6csQXD2ZtVPB1J8lpUpzzCXU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
