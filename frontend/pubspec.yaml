@@ -52,7 +52,25 @@ dev_dependencies:
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
+
+
+
+
 flutter:
+  assets:
+    - icons\PencilstoPeople_Logo.png
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: fonts\Poppins-Bold.ttf
+        - asset: fonts\Poppins-ExtraLight.ttf
+        - asset: fonts\Poppins-Medium.ttf
+        - asset: fonts\Poppins-Regular.ttf
+        - asset: fonts\Poppins-SemiBold.ttf
+
+
+
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
