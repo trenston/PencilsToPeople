@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 // import 'screens/auth/email_sign_in_screen.dart';
-import 'screens/auth/email_sign_up_screen.dart';
-import 'screens/navigation/home_screen.dart';
-import 'screens/navigation/events_screen.dart';
+import 'features/auth/email_sign_up_screen.dart';
+import 'features/home/home_screen.dart';
+import 'features/events/events_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -29,7 +29,8 @@ class MyApp extends StatelessWidget {
       routes: {
         // '/signin': (context) => const EmailSignInScreen(),
         '/signup': (context) => const EmailSignUpScreen(),
-        '/home': (context) => HomeScreen(), // (userEmail: '') const HomeScreen()
+        '/home': (context) =>
+            HomeScreen(), // (userEmail: '') const HomeScreen()
         '/events': (context) => EventsScreen(),
       },
     );
