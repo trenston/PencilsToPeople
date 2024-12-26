@@ -17,19 +17,23 @@ class NavButton extends StatelessWidget {
     bool isHighlighted = currentRoute == route;
 
     return TextButton(
+
       style: TextButton.styleFrom(
-          foregroundColor: Colors.black,
-          backgroundColor: isHighlighted
-              ? Color.fromRGBO(223, 108, 141, 0.65)
-              : Color.fromRGBO(0, 0, 0, 0)),
-      child: Text(label,
-          style: TextStyle(
-            fontFamily: 'Poppins',
-            fontWeight: FontWeight.w400,
-            fontSize: 20,
-          )),
-      onPressed: () =>
-          Navigator.pushNamedAndRemoveUntil(context, route, (_) => false),
+        foregroundColor: Colors.black,
+        backgroundColor: isHighlighted
+          ? Color.fromRGBO(223, 108, 141, 0.65)
+          : Color.fromRGBO(0, 0, 0, 0)
+      ),
+
+      child: Text(
+        label,
+        style: TextStyle(
+          fontFamily: 'Poppins',
+          fontSize: 20,
+        )
+      ),
+
+      onPressed: () => Navigator.pushNamedAndRemoveUntil(context, route, (_) => false),
     );
   }
 }

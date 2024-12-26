@@ -1,38 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:firebase_core/firebase_core.dart';
-import 'firebase_options.dart';
-// import 'screens/auth/email_sign_in_screen.dart';
-import 'features/auth/email_sign_up_screen.dart';
-import 'features/home/home_screen.dart';
-import 'features/events/events_screen.dart';
+import 'layouts/responsive_layout.dart';
 
-void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
+void main() {
   runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Pencils to People',
-      theme: ThemeData(
-        primarySwatch: Colors.amber,
-      ),
-      initialRoute: '/home',
-      routes: {
-        // '/signin': (context) => const EmailSignInScreen(),
-        '/signup': (context) => const EmailSignUpScreen(),
-        '/home': (context) =>
-            HomeScreen(), // (userEmail: '') const HomeScreen()
-        '/events': (context) => EventsScreen(),
-      },
+      debugShowCheckedModeBanner: false,
+      home: ResponsiveLayout(),
     );
   }
 }

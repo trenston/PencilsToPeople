@@ -1,0 +1,64 @@
+website:  
+- Home  
+  - Hero  
+    - PENCILS TO PEOPLE  
+    - Our Story  ***
+  - Vision & Mission  
+  - Statistics  
+    - X events held  
+    - X dollars raised  
+    - X volunteers  
+    - X volunteer hours  
+  - Quote(s)  
+
+- Get Involved  
+  - Next Major Event  
+  - Calendar & Event List  
+    - Left: Calendar  
+    - Right: Upcoming Events  
+
+- Scholarship  
+  - The Lahui Legacy Fund  
+    - About  
+    - Criteria, Deadlines, Process, etc.  
+    - __/5000 Raised  
+
+- Account  
+  - Create Account  
+  - Sign In  
+  - When Signed In:  
+    - Forms  
+    - Settings  
+
+- App Bar  
+  - Home, Get Involved, Scholarship, Account  
+
+- Contact Us  
+  - Instagram, Facebook  
+  - Get in Touch: info@pencilstopeople.org  
+
+---
+
+app:  
+- Home  
+  - Next Event  
+  - Scholarship progress bar
+
+- Get Involved  
+  - Event Calendar  
+  - Upcoming Events List  
+  - Notifications  
+
+- Scholarship  
+  - Lahui Legacy Fund  
+    - Progress Bar  
+    - Eligibility & Criteria  
+    - Donate  
+    - Apply  
+- Account
+ - Signup/login
+- Bottom App Bar  
+  - Home  
+  - Get Involved  
+  - Scholarship  
+  - Account  
