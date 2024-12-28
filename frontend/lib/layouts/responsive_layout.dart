@@ -5,6 +5,8 @@ import 'web_desktop_layout.dart';
 import 'web_mobile_layout.dart';
 
 class ResponsiveLayout extends StatelessWidget {
+  const ResponsiveLayout({super.key});
+
   @override
   Widget build(BuildContext context) {
     double screenWidth = MediaQuery.of(context).size.width;

@@ -24,9 +24,8 @@ website:
     - __/5000 Raised  
 
 - Account  
-  - Create Account  
-  - Sign In  
-  - When Signed In:  
+  - Signup/login
+  - When logged in:  
     - Forms  
     - Settings  
 
@@ -42,7 +41,10 @@ website:
 app:  
 - Home  
   - Next Event  
-  - Scholarship progress bar
+  - Stats
+    - Events Attended
+    - Volunteer hours
+    - Funds raised
 
 - Get Involved  
   - Event Calendar  
@@ -54,9 +56,11 @@ app:
     - Progress Bar  
     - Eligibility & Criteria  
     - Donate  
-    - Apply  
+    - Apply*
+    
 - Account
  - Signup/login
+
 - Bottom App Bar  
   - Home  
   - Get Involved  

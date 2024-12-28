@@ -58,16 +58,28 @@ dev_dependencies:
 
 flutter:
   assets:
-    - icons\PencilstoPeople_Logo.png
-
+    - assets/images/PencilstoPeople_Logo.png
+    - assets/images/example_event.jpg
   fonts:
-    - family: Poppins
+    - family: Montserrat
       fonts:
-        - asset: fonts\Poppins-Bold.ttf
-        - asset: fonts\Poppins-ExtraLight.ttf
-        - asset: fonts\Poppins-Medium.ttf
-        - asset: fonts\Poppins-Regular.ttf
-        - asset: fonts\Poppins-SemiBold.ttf
+        - asset: assets/fonts/Montserrat-Bold.ttf
+        - asset: assets/fonts/Montserrat-ExtraBold.ttf
+        - asset: assets/fonts/Montserrat-Medium.ttf
+        - asset: assets/fonts/Montserrat-Regular.ttf
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Bold.ttf
+        - asset: assets/fonts/Roboto-BoldItalic.ttf
+        - asset: assets/fonts/Roboto-Italic.ttf
+        - asset: assets/fonts/Roboto-Light.ttf
+        - asset: assets/fonts/Roboto-LightItalic.ttf
+        - asset: assets/fonts/Roboto-Medium.ttf
+        - asset: assets/fonts/Roboto-MediumItalic.ttf
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Thin.ttf
+        - asset: assets/fonts/Roboto-ThinItalic.ttf
 
 
 
